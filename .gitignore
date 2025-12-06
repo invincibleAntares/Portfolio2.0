@@ -38,3 +38,52 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+**/*.d.ts.map
+
+# development files
+.vscode/
+.idea/
+*.log
+*.log.*
+
+# test files
+**/__tests__/
+**/*.test.*
+**/*.spec.*
+/coverage
+
+# documentation
+README.md
+CHANGELOG.md
+LICENSE
+*.md
+
+# git files (already handled, but explicit)
+.git/
+.gitignore
+.gitattributes
+
+# config files (development)
+.prettierrc.*
+.eslintrc.*
+.eslintignore
+eslint.config.*
+jest.config.*
+vitest.config.*
+
+# lint cache
+.eslintcache
+**/.eslintcache
+**/node_modules/.cache/
+
+# typescript config (keep tsconfig.json for build, but exclude others)
+tsconfig.*.json
+!tsconfig.json
+tsconfig.*.ts
+
+# IDE files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
