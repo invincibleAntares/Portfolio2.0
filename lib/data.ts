@@ -146,45 +146,43 @@ export const PROJECTS: IProject[] = [
             'Vercel',
         ],
         thumbnail:
-            '/Projects/screencapture-remindrly-vercel-app-2025-12-05-16_42_23.png',
+            '/Projects/screencapture-remindrly-vercel-app-2025-12-11-14_58_27.png',
         longThumbnail:
-            '/Projects/screencapture-remindrly-vercel-app-2025-12-05-16_42_23.png',
+            '/Projects/screencapture-remindrly-vercel-app-2025-12-11-14_58_27.png',
         images: [
-            '/Projects/screencapture-remindrly-vercel-app-2025-12-05-16_42_23.png',
+            '/Projects/remindrly1.png',
+            '/Projects/remindrly2.png',
+            '/Projects/remindrly3.png',
         ],
     },
 
     {
-        title: 'Epikcart',
-        slug: 'epikcart',
+        title: 'CareerHub',
+        slug: 'careerhub',
         techStack: [
+            'Next.js (App Router)',
             'React',
-            'Redux',
-            'React i18n',
+            'TypeScript',
             'Tailwind CSS',
-            'Framer Motion',
-            'debouncing',
-            'Api Integration',
+            'Clerk Auth',
+            'Drizzle ORM',
+            'Neon Postgres',
         ],
-        thumbnail:
-            '/Projects/screencapture-remindrly-vercel-app-2025-12-05-16_42_23.png',
-        longThumbnail:
-            '/Projects/screencapture-remindrly-vercel-app-2025-12-05-16_42_23.png',
+        thumbnail: '/Projects/CareerHub1.png',
+        longThumbnail: '/Projects/CareerHub1.png',
         images: [
-            '/projects/images/epikcart-1.png',
-            '/projects/images/epikcart-2.png',
-            '/projects/images/epikcart-3.png',
-            '/projects/images/epikcart-4.png',
-            '/projects/images/epikcart-5.png',
+            '/Projects/CareerHub1.png',
+            '/Projects/CareerHub2.png',
+            '/Projects/CareerHub3.png',
         ],
-        liveUrl: 'https://demo.epikcart.siphertech.com/',
-        year: 2023,
-        description: `Epikcart is a feature-rich, scalable e-commerce platform tailored for large businesses. It features dynamic product filtering, multi-language support with RTL, advanced inventory management, order tracking, and refund systems, offering a comprehensive solution for multi-vendor operations.`,
-        role: `As the frontend developer in a team of five, I: <br/>
-        - Built the frontend from scratch using React, Redux, RTK Query, and Tailwind CSS.<br/>
-        - Developed dynamic filtering logic for the product search page with admin-configurable parameters.<br/>
-        - Integrated multi-language support with React i18n, including RTL handling.<br/>
-        - Delivered a responsive, user-friendly interface in collaboration with the UI/UX designer.`,
+        liveUrl: 'https://careerhub.tech/',
+        year: 2025,
+        description: `CareerHub is a curated tech job board that aggregates internships and full-time roles. It offers fast search, category filters, and clean listing cards so candidates can discover and apply directly on the employer’s site.`,
+        role: `As the full-stack developer, I:<br/>
+  - Built the Next.js App Router frontend with React server components, Suspense, and responsive Tailwind UI.<br/>
+  - Implemented search, category/kind filtering, and hydrated job cards with metadata for better discovery.<br/>
+  - Integrated Clerk for authentication and protected admin posting, using Drizzle ORM with Neon Postgres for persistence.<br/>
+  - Added SEO/OG metadata, reusable components (NavBar, Footer, filters, search), and polish for a production-ready experience.`,
     },
     {
         title: 'Resume Roaster',
